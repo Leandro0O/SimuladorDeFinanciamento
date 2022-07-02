@@ -12,4 +12,7 @@ export class Parcela{
 
     }
     
+    getSaldo(){
+        return this.#saldo;
+    }
 }
